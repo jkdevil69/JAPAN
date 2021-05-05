@@ -1,0 +1,121 @@
+body {
+  list-style-type: none;
+}
+
+.container:first-child {
+  display: inline-block;
+}
+
+.container:nth-child(2),
+.container:nth-child(3) {
+  display: inline-block;
+}
+
+#logo {
+  margin-left: 50px;
+  position: relative;
+  float: left;
+  transform: rotateY(0deg) translateZ(0);
+  transition: transform 1s linear;
+}
+
+#logo:hover {
+  transform: rotateY(360deg) translateZ(0);
+}
+
+#logo2 {
+  margin-left: 50px;
+  position: relative;
+  float: left;
+  transform: rotateY(0deg) translateZ(0);
+  transition: transform 1s linear;
+}
+
+#logo2:hover {
+  transform: rotateY(360deg) translateZ(0);
+}
+
+#logo3 {
+  margin-left: 50px;
+  position: relative;
+  float: left;
+  transform: rotateY(0deg) translateZ(0);
+  transition: transform 1s linear;
+}
+
+#logo3:hover {
+  transform: rotateY(360deg) translateZ(0);
+}
+
+
+#logo4 {
+  margin-left: 50px;
+  position: relative;
+  float: left;
+  transform: rotateY(0deg) translateZ(0);
+  transition: transform 1s linear;
+}
+
+#logo4:hover {
+  transform: rotateY(360deg) translateZ(0);
+}
+
+#logo5 {
+  margin-left: 50px;
+  position: relative;
+  float: left;
+  transform: rotateY(0deg) translateZ(0);
+  transition: transform 1s linear;
+}
+
+#logo5:hover {
+  transform: rotateY(360deg) translateZ(0);
+}
+
+#logo6 {
+  margin-left: 50px;
+  position: relative;
+  float: left;
+  transform: rotateY(0deg) translateZ(0);
+  transition: transform 1s linear;
+}
+
+#logo6:hover {
+  transform: rotateY(360deg) translateZ(0);
+}
+
+#logo7 {
+  margin-left: 50px;
+  position: relative;
+  float: left;
+  transform: rotateY(0deg) translateZ(0);
+  transition: transform 1s linear;
+}
+
+#logo7:hover {
+  transform: rotateY(360deg) translateZ(0);
+}
+
+
+.imagenLeft {
+    float: left;
+}
+
+#buscar {
+  margin-right: 50px;
+  float: right;
+  padding-top: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav > ul {
+  width: 100%;
+  height: 32px;
+  color: black;
+  background-color: red;
+}
